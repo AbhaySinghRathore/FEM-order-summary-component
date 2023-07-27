@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Outfit:wght@300&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    overflow: scroll;
+
+}
+
+#main-image{
+    max-width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 2rem;
+    width: 20rem;
+    height:fit-content;
+}
+
+#container h2{
+    padding: 1rem;
+    text-align: center;
+}
+
+#container p{
+    margin: 0 2rem;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    line-height: 1.5rem;
+}
+
+#container ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1.5rem;
+}
+
+#item1{
+    text-align: center;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#item2{
+    text-align: center;
+    padding:5px;
+}
+
+#item2 span{
+    font-weight: 700;
+}
+#item3{
+    text-align: center;
+    padding:5px;
+}
+
+#payment-btn{
+    margin: 0.3rem 2rem;
+    text-align: center;
+    border-radius: 8px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+    box-shadow: 0px 15px 10px -15px hsl(224, 23%, 55%);
+}
+
+#payment-btn:hover{
+    background-color: hsl(246, 51%, 54%);
+}
+
+#cancel-order-btn{
+    margin: 0.3rem 2rem;
+    text-align: center;
+    border-radius: 8px;
+    color: black;
+    padding: 0.8rem 4.5rem;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
